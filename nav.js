@@ -6,11 +6,17 @@ fetch('topnav.html')
     const currentPage = window.location.pathname.split("/").pop();
     const navLinks = document.querySelectorAll('.topnav a');
 
+    console.log(currentPage);
+
     navLinks.forEach(link => {
 
       const linkPage = link.getAttribute('href');
+      console.log(linkPage);
+
+
       if (linkPage === currentPage) {
         link.classList.add('active');
+        console.log('Yeppee');
       } else {
         link.classList.remove('active');
       }

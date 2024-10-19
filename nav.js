@@ -1,5 +1,5 @@
 // Load the top navigation on all pages
-fetch('./topnav.html')
+fetch('topnav.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('topnav-placeholder').innerHTML = data;

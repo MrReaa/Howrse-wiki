@@ -132,7 +132,7 @@ body {
     background-color: #FFABAB;
     color: white;
   }
-  .topnav a:nth-child(1).active {
+  .topnav a:nth-child(1):active {
     background-color: #FFABAB;
     color: white;
   }
@@ -146,7 +146,7 @@ body {
     background-color: #FF9CEE;
     color: white;
   }
-  .topnav a:nth-child(2).active {
+  .topnav a:nth-child(2):active {
     background-color: #FF9CEE;
     color: white;
   }

@@ -7,11 +7,13 @@ fetch('topnav.html')
 
     const currentPage = window.location.pathname.split("/").pop();
 
+    console.log(currentPage);
     console.log('2');
 
 
     const navLinks = document.querySelectorAll('.topnav a');
 
+    console.log(navLinks);
     console.log('3');
 
 
@@ -22,6 +24,7 @@ fetch('topnav.html')
 
       const linkPage = link.getAttribute('href');
 
+      console.log(linkPage);
       console.log('4.1');
 
 

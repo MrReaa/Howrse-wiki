@@ -6,7 +6,7 @@ fetch('topnav.html')
     const currentPage = window.location.pathname.split("/").pop();
     const navLinks = document.querySelectorAll('.topnav a');
 
-    const effectiveCurrentPage = currentPage === '' ? 'index.html' : currentPage;
+    const effectiveCurrentPage = currentPage === '' ? 'index' : currentPage;
 
     navLinks.forEach(link => {
 

@@ -109,17 +109,14 @@ body {
     
   .topnav a{
     color: black; 
-    border: 2px solid #ACE7FF;
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
   }
   .topnav a:hover {
-    background-color: #ACE7FF;
     color: white;
   }
   .topnav a.active {
-    background-color: #ACE7FF;
     color: white;
   }
 
@@ -132,7 +129,7 @@ body {
     background-color: #FFABAB;
     color: white;
   }
-  .topnav a:nth-child(1):active {
+  .topnav a:nth-child(1).active {
     background-color: #FFABAB;
     color: white;
   }
@@ -145,18 +142,37 @@ body {
   .topnav a:nth-child(2):hover {
     background-color: #FF9CEE;
     color: white;
+
   }
-  .topnav a:nth-child(2):active {
+  .topnav a:nth-child(2).active {
     background-color: #FF9CEE;
     color: white;
+
   }
 
 
   .topnav a:nth-child(3) {
-    color: black; 
     border: 2px solid #D5AAFF;
   }
   .topnav a:nth-child(3):hover {
     background-color: #D5AAFF;
     color: white;
+
   }
+  .topnav a:nth-child(3).active {
+    background-color: #D5AAFF;
+    color: white;
+
+  }
+  
+
+  .topnav a:nth-child(4) {
+    border: 2px solid #ACE7FF;
+  }
+  .topnav a:nth-child(4):hover {
+    background-color: #ACE7FF;
+    color: white;
+
+  }
+
+  

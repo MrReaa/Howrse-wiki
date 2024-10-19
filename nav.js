@@ -1,21 +1,41 @@
-// Load the top navigation on all pages
 fetch('topnav.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('topnav-placeholder').innerHTML = data;
 
-    // Get the current page URL
+    console.log('1');
+
     const currentPage = window.location.pathname.split("/").pop();
 
-    // Select all nav links
+    console.log('2');
+
+
     const navLinks = document.querySelectorAll('.topnav a');
 
-    // Loop through each link and set the active class based on the current page
+    console.log('3');
+
+
     navLinks.forEach(link => {
+
+      console.log('4');
+
+
       const linkPage = link.getAttribute('href');
+
+      console.log('4.1');
+
+
       if (linkPage === currentPage) {
+
+        console.log('5');
+
+
         link.classList.add('active');
       } else {
+
+        console.log('6');
+
+
         link.classList.remove('active');
       }
     });

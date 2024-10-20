@@ -235,16 +235,13 @@
     <script src="nav.js"></script>  
 
     <script>
-$(document).ready(function() {
-    $(".flipbook").turn();
-
-    $('a[data-page]').on('click', function(event) {
-    event.preventDefault(); 
-    console.log("Clicked on page: " + $(this).data('page'));
-    var pageNumber = $(this).data('page'); 
-    $(".flipbook").turn('page', pageNumber); 
-});
-});
+        $(".flipbook").turn();
+        // Handle link clicks
+        $('a[data-page]').on('click', function(event) {
+            event.preventDefault(); // Prevent default anchor click behavior
+            var pageNumber = $(this).data('page'); // Get the page number from data attribute
+            $(".flipbook").turn('page', pageNumber); // Turn the flipbook to the specified page
+        });
 
 
 

@@ -20,17 +20,17 @@ document.addEventListener("DOMContentLoaded", function () {
         // Add more sections as needed
     ];
 
-    // Get the container for dynamically added content
-    const container = document.getElementById("content-container");
+    // Get the flipbook container
+    const flipbook = document.querySelector(".flipbook");
 
-    // DEBUG CHECK: Ensure container is found
-    if (!container) {
-        console.error("Error: content-container not found.");
-        return; // Stop script if container is not found
+    // Check if the flipbook container exists
+    if (!flipbook) {
+        console.error("Error: flipbook not found.");
+        return; // Stop the script if flipbook is not found
     }
 
     // Page height limit (match this with the CSS flipbook page height)
-    const pageHeight = 600;  // 600px
+    const pageHeight = 600;  // Adjust this according to your CSS settings
 
     // Function to create a new page
     function createPage(header, text) {
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const paragraphs = text.split("\n");
 
             let currentPage = createPage(header, ""); // Start with an empty page
-            container.appendChild(currentPage);
+            flipbook.appendChild(currentPage); // Append to flipbook
 
             paragraphs.forEach((para) => {
                 const paraEl = document.createElement("p");
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     // Start a new page
                     currentPage = createPage(header, "");
-                    container.appendChild(currentPage);
+                    flipbook.appendChild(currentPage); // Append to flipbook
 
                     // Add the paragraph to the new page
                     currentPage.querySelector(".page-content").appendChild(paraEl);
@@ -91,6 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Call the function to divide content and append dynamically
     autoDivideContent(content);
 
-    // Initialize the flipbook plugin *after* content is added
+    // Initialize the flipbook plugin after content is added
     $(".flipbook").turn();
 });

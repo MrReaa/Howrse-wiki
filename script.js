@@ -21,6 +21,11 @@ Toisin kuin pegasuksilla yksisarvisen sarvi on periytyvä ominaisuus. Jos siis h
 // Grab the container where content will be divided
 const container = document.getElementById("content-container");
 
+if (!container) {
+    console.error("Error: content-container not found.");
+    return; // Stop script if container is not found
+}
+
 // Set the page height limit (matching CSS page height)
 const pageHeight = 600; // in pixels
 
@@ -58,7 +63,6 @@ function autoDivideContent(contentArray) {
         let currentPage = createPage(header, "");
         container.appendChild(currentPage);
 
-        let currentPageHeight = currentPage.offsetHeight;
 
         paragraphs.forEach((para) => {
             const paraEl = document.createElement("p");
@@ -67,8 +71,6 @@ function autoDivideContent(contentArray) {
             // Add the paragraph to the current page
             currentPage.querySelector(".page-content").appendChild(paraEl);
 
-            // Check if adding this paragraph exceeds the page height
-            currentPageHeight = currentPage.offsetHeight;
 
             if (currentPageHeight > pageHeight) {
                 currentPage.querySelector(".page-content").removeChild(paraEl);

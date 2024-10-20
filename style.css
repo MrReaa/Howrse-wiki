@@ -3,14 +3,12 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-        font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
     display: grid;
     place-content: center;
-    height: 100vh;
-    width: 100vw;
     overflow: hidden;
     background: rgb(224, 243, 219);
 }
@@ -122,6 +120,7 @@ figcaption {
     float: center;
     border: none;
     padding: 15px 32px;
+    padding-top: 100px;
     text-align: center;
     text-decoration: none;
     font-size: 17px;

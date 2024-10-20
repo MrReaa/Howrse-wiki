@@ -21,6 +21,7 @@ body {
     width: 1000px;
     height: 600px;
     margin: 100px;
+    position: relative;
 
 }
 
@@ -181,5 +182,34 @@ body {
     color: white;
 
   }
+
+  .sidenav {
+    width: 200px;
+    position: absolute; 
+    top: 40%;
+    left: 75%; 
+    margin-left: 100px; 
+    background-color: rgb(224, 243, 219);
+    overflow: hidden;
+    padding: 20px 10px;
+  }
+  
+  .sidenav a {
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px solid #FFABAB;
+
+    color: #9398c5;
+    display: block;
+
+    margin-bottom: 20px;
+  }
+  .sidenav a:hover {
+    color: #9f59c7;
+  }
+
 
   

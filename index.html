@@ -12,6 +12,13 @@
     
     <div id="topnav-placeholder"></div>
 
+    <div class="sidenav">
+        <a href="#" data-page="6">Ylimaalislinkit</a>
+        <a href="#">Varsa hoito-ohje</a>
+        <a href="#">Kisaradat</a>
+    </div>
+
+
     <div class="flipbook">
         <div class="hard">
             <h1>Howrse wiki</h1>  
@@ -25,7 +32,7 @@
                 <h2>Sisällysluettelo</h2>
 
                 <ol>
-                    <li><a href="#" data-page="3">Kasvattaminen</a></li>
+                    <li><a href="#" data-page="5">Kasvattaminen</a></li>
                         <ol>
                             <li>Hevosrodut
                                 <ol>
@@ -40,7 +47,7 @@
                             <li>Kasvatus</li>
                             <li>Varsat</li>
                         </ol>
-                    <li><a href="#" data-page="5">Hevoskeskus</a>
+                    <li><a href="#" data-page="9">Hevoskeskus</a>
                         <ol>
                             <li>Ylläpito</li>
                             <li>Karsinat</li>
@@ -226,10 +233,20 @@
     <script src="jquery.js"></script>
     <script src="turn.js"></script>  
     <script src="nav.js"></script>  
-    <script src="script.js"></script>
- 
+
     <script>
         $(".flipbook").turn();
+
+        // Handle link clicks
+        $('a[data-page]').on('click', function(event) {
+            event.preventDefault(); // Prevent default anchor click behavior
+            var pageNumber = $(this).data('page'); // Get the page number from data attribute
+            $(".flipbook").turn('page', pageNumber); // Turn the flipbook to the specified page
+        });
+
+
+
+
     </script>
 </body>
 

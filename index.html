@@ -47,7 +47,7 @@
                             <li>Kasvatus</li>
                             <li>Varsat</li>
                         </ol>
-                    <li><a href="#" data-page="9">Hevoskeskus</a>
+                    <li><a href="#" data-page="9">Hevoskeskus</a></li>
                         <ol>
                             <li>Ylläpito</li>
                             <li>Karsinat</li>
@@ -62,7 +62,7 @@
                                 </ol>
                             </li>
                         </ol>
-                    </li>
+                    
                 </ol>  
             </div>
         </div>
@@ -237,11 +237,10 @@
     <script>
         $(".flipbook").turn();
 
-        // Handle link clicks
         $('a[data-page]').on('click', function(event) {
-            event.preventDefault(); // Prevent default anchor click behavior
-            var pageNumber = $(this).data('page'); // Get the page number from data attribute
-            $(".flipbook").turn('page', pageNumber); // Turn the flipbook to the specified page
+            event.preventDefault(); 
+            var pageNumber = $(this).data('page'); 
+            $(".flipbook").turn('page', pageNumber); 
         });
 
 

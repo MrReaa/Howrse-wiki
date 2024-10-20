@@ -13,7 +13,7 @@
     <div id="topnav-placeholder"></div>
 
     <div class="sidenav">
-        <a href="#" data-page="6">Ylimaalislinkit</a>
+        <a href="#">Ylimaalislinkit</a>
         <a href="#">Varsa hoito-ohje</a>
         <a href="#">Kisaradat</a>
     </div>
@@ -235,13 +235,16 @@
     <script src="nav.js"></script>  
 
     <script>
-        $(".flipbook").turn();
+$(document).ready(function() {
+    $(".flipbook").turn();
 
-        $('a[data-page]').on('click', function(event) {
-            event.preventDefault(); 
-            var pageNumber = $(this).data('page'); 
-            $(".flipbook").turn('page', pageNumber); 
-        });
+    $('a[data-page]').on('click', function(event) {
+    event.preventDefault(); 
+    console.log("Clicked on page: " + $(this).data('page'));
+    var pageNumber = $(this).data('page'); 
+    $(".flipbook").turn('page', pageNumber); 
+});
+});
 
 
 

@@ -95,6 +95,20 @@ body {
   content: counters(item, ".") " "; counter-increment: item 
 }
 
+table, th, td {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+figcaption {
+  background-color: #c6cac9;
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  size: 5px;
+}
+
 
 
 

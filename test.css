@@ -12,7 +12,7 @@ body{
 
 main{
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,6 +204,13 @@ input[type=radio]:checked ~ .option {
 }
 .modal-button-container button:hover{
     background-color: rgb(83, 82, 82);
+}
+
+
+
+#timer {
+    font-size: 24px;
+    color: green;
 }
 
 @media(min-width : 300px) and (max-width : 350px){

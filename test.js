@@ -314,12 +314,17 @@ function handleNextQuestion() {
     checkForAnswer() //check if player picked right or wrong option
     unCheckRadioButtons()
     //delays next question displaying for a second just for some effects so questions don't rush in on player
+
+    if(indexNumber == 1 ){
+        startTimer()
+    }
     setTimeout(() => {
         if (indexNumber <= 9) {
 //displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
             NextQuestion(indexNumber)
         }
         else {
+            stopTimer()
             handleEndGame()//ends game if index number greater than 9 meaning we're already at the 10th question
         }
         resetOptionBackground()
@@ -332,6 +337,7 @@ function resetOptionBackground() {
     options.forEach((option) => {
         document.getElementById(option.labels[0].id).style.backgroundColor = ""
     })
+
 }
 
 // unchecking all radio buttons for next question(can be done with map or foreach loop also)
@@ -346,7 +352,6 @@ function unCheckRadioButtons() {
 function handleEndGame() {
     let remark = null
     let remarkColor = null
-
     // condition check for player remark and remark color
     if (playerScore <= 3) {
         remark = "Et taida olla pelaaja."
@@ -361,6 +366,9 @@ function handleEndGame() {
         remarkColor = "green"
     }
     const playerGrade = (playerScore / 10) * 100
+
+    const timeTaken = document.getElementById('timer').textContent;
+    document.getElementById('final-timer').textContent = timeTaken;
 
     //data to display to score board
     document.getElementById('remarks').innerHTML = remark
@@ -386,4 +394,31 @@ function closeScoreModal() {
 //function to close warning modal
 function closeOptionModal() {
     document.getElementById('option-modal').style.display = "none"
+}
+
+
+
+let startTime;
+let interval;
+
+// Function to start the timer
+function startTimer() {
+    startTime = new Date();
+
+    // Update the timer every second
+    interval = setInterval(function() {
+        let currentTime = new Date();
+        let timeElapsed = new Date(currentTime - startTime);
+        
+        let hours = String(timeElapsed.getUTCHours()).padStart(2, '0');
+        let minutes = String(timeElapsed.getUTCMinutes()).padStart(2, '0');
+        let seconds = String(timeElapsed.getUTCSeconds()).padStart(2, '0');
+
+        document.getElementById('timer').textContent = `${hours}:${minutes}:${seconds}`;
+    }, 1000);
+}
+
+// Function to stop the timer
+function stopTimer() {
+    clearInterval(interval);
 }

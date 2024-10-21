@@ -7,15 +7,15 @@
 
 #### 2/5 HTML structure with clear content differentiation (headings, paragraphs, lists).
 - Multible usages
-  <p>Exaples:</p>
+  <p>Example:</p>
 - Headings: index.html (lines 34, 80, 83), contact.html (lines 17, 27, 43)
 - Paragraphs: index.html (lines 81, 86, 98) contact.html (lines 19, 23) test.html (lines 27-32)
 - Lists: index.html (lines 36-73 , 181-188 ), contact.html (lines 29-34), 
 
 #### 3/5 Use of forms, links, and media.
 - Multible usages
-Examples:
-- Forms only contact.html (lines 45-49)
+ <p>Example:</p>
+ - Forms only contact.html (lines 45-49)
 - Links: index.html (lines 17-20, 46-48 , 50, 52-55, 121-165), contact.html (lines 30-32) topnav.html (lines 2-5)
 - Media: index.html (lines 28, 200, 245-247, 276), contact.html (lines 39)
 
@@ -35,13 +35,13 @@ Examples:
 
 #### 1/5 Basic CSS styling (colors, fonts).
 - Multible usages clearly in the website
-Examples:
+ <p>Example:</p>
 - Colors: style.css (lines 13, 137, 155, 232), contact.css (lines 4, 28, 76), test.css (lines 54, 93, 100)
 - Fonts: style.css (lines 43, 108), test.css (line 9)
 
 #### 2/5 Use of classes and IDs to style specific elements.
 - Multible usages
-Examples:
+ <p>Example:</p>
 - style.css (lines 29, 42, 51, 62, 74, 153-164)
 - contact.css (lines 25-35, 37-41, 47-56)
 - test.css (lines 34, 58, 114)
@@ -57,7 +57,7 @@ Note. The home bage is not compatible for phone because the flipbook effect. The
 
 #### 4/5 Use of layouts for advanced user interfaces (arrays, float, flexbox, css grid)
 - Multible usages
-Examples:
+ <p>Example:</p>
 - Grid: style.css (line 10), contact.css (lines 10,16)
 - Flexbox: style.css (lines 53, 123, 138), contact.css (lines 30, 38, 66, 78) test.css (lines 16, 27, 37, 51)
 
@@ -86,7 +86,7 @@ Multible usages:
 
 #### 4/5 Advanced logic, looping through data, and dynamic DOM updates.
 Multible usages:
-Example:
+ <p>Example:</p>
 -  If, Else, Switch jne: nav.js (lines 16-18), test.js (lines 236-240, 273, 280, 296)
 -  For, ForEach, map jne: contact.js (line 15), test.js (line 346)
 - DOM updates:
@@ -113,7 +113,7 @@ Example: dogge.js (line 4), nav.js (line 1),
 
 #### 4/5 Error handling is implemented (for failed API calls, etc.).
 Multible usages:
-Example:
+ <p>Example:</p>
 - dogge.js (line 13), message-sender.js (line 37), nav.js (line 23)
 
 #### 5/5 Effective use of asynchronous data to enhance user experience (like filtering, sorting).

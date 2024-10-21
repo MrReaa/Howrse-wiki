@@ -3,7 +3,7 @@
 # HTML
 #### 1/5 Basic HTML structure is present.
 - Multible usages
-- For example indelx.html lines 1-11
+- For example indelx.html (lines 1-11)
 
 #### 2/5 HTML structure with clear content differentiation (headings, paragraphs, lists).
 - Multible usages
@@ -100,7 +100,7 @@ Multible usages:
   - QuerySelector: nav.js (line 7)
 
 #### 5/5 Consistent use of Object-Oriented JavaScript principles.
--
+- Usages: horse.js (lines 2-6, 8, 10)
 
 # Asynchronous Operations
 
@@ -124,6 +124,6 @@ Multible usages:
 
 - dogge.js (line 13), message-sender.js (line 37), nav.js (line 23)
 
-#### 5/5 Effective use of asynchronous data to enhance user experience (like filtering, sorting).
+#### 5/5 Effective use of asynchronous data to enhance user experience.
 Fetch was listed before,
-Async/await: 
+Promise used: horse (line 17)

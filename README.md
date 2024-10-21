@@ -1,4 +1,7 @@
-# Alotus
+# About
+Tässä on mun tekemä Howrse wiki sivu, jossa myös testi taidoillesi :). Tovottavasti nautit. Huom! Kirjan sivuja pystyy kääntämään klikaamalla tai vetämällä sivuja. Valitettavasti kirja välilehti ei ole puhelin ystävällinen, mutta muut sivut ovat. Jos sivulla on kirjoitus virheitä tai faktat ovat väärin pistäppä viestiä tulemaan. 
+
+Linkki sivulle: https://howrse-wiki.pages.dev/
 
 # HTML
 #### 1/5 Basic HTML structure is present.

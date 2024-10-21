@@ -1,228 +1,228 @@
 const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
+        question: "Millä voi tehdä hevosesta kuolemattoman ?",
+        optionA: "Nuoruuden vesi",
+        optionB: "Yksisarvisen sarvi",
+        optionC: "Satula",
+        optionD: "Viisasten kivi",
         correctOption: "optionD"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "Kuinka paljon hevonen ikääntyy päivän aikana?",
+        optionA: "12 tuntia",
+        optionB: "2 kuukautta",
+        optionC: "7 päivää",
+        optionD: "1 vuosi",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "Mikä on BULP ?",
+        optionA: "Tietyn tyyliset suitset",
+        optionB: "Tehoruoka",
+        optionC: "Hevosen kouluratsastus tyyli",
+        optionD: "Geneettinen indeksi",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "Mitä varusteita hevonen tarvitsee kilpaillakseen",
+        optionA: "Fleecepintelit, korvahuppu ja satulahuopa",
+        optionB: "Kypärä, hanskat ja ratsastussaappaat",
+        optionC: "Satula, suitset ja satulahuopa",
+        optionD: "Korvahuppu, satula, kypärä",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
+        question: "Mikä ikäisenä varsa kasvaa aikuiseksi ?",
+        optionA: "1v 4kk 4 päivää",
+        optionB: "8kk",
+        optionC: "4 vuotta",
+        optionD: "1v 6kk",
         correctOption: "optionD"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "Mitä khronoksen ajastin tekee ?",
+        optionA: "Vähentää hevosen koulutuksen kestoa puolella",
+        optionB: "Nuorentaa hevosta 5 vuodella",
+        optionC: "Antaa hoitaa hevosta kuluttamatta siihen aikaa",
+        optionD: "Ei mitään",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "Mistä näet erikoisesineesi ?",
+        optionA: "Hevoskeskus",
+        optionB: "Kauppa",
+        optionC: "Musta pörssi",
+        optionD: "Etusivu",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "Mikä on suurin hevosrotu?",
+        optionA: "Shire",
+        optionB: "Arabianhevonen",
+        optionC: "Friisiläinen",
+        optionD: "Ahaltekhevonen",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
+        question: "Mikä on Howrsen pelivaluutta?",
+        optionA: "Timantit",
+        optionB: "Passit",
+        optionC: "Käteinen",
+        optionD: "Equus",
         correctOption: "optionD"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: "Mikä eläin Howrse-pelissä on keskeinen?",
+        optionA: "Lehmä",
+        optionB: "Kissa",
+        optionC: "Koira",
+        optionD: "Hevonen",
         correctOption: "optionD"
     },
 
     {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
+        question: "Kuinka monta passia pelaaja voi ansaita päivässä maksutta?",
+        optionA: "1",
+        optionB: "5",
+        optionC: "30",
+        optionD: "20",
         correctOption: "optionC"
     },
 
     {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
+        question: "Kuinka usein hevosen täytyy juoda Howrsessa?",
+        optionA: "Kerran päivässä",
+        optionB: "Kerran viikossa",
+        optionC: "Kahdesti päivässä",
+        optionD: "Vain kisoissa",
         correctOption: "optionA"
     },
 
 
     {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "Miten uusi hevonen syntyy Howrsessa?",
+        optionA: "Kilpailussa",
+        optionB: "Astuttamalla",
+        optionC: "Mystisessä tehtävässä",
+        optionD: "Taivaassa",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
+        question: "Mitä Howrse-pelissä tapahtuu, jos hevosen terveys laskee liian alas?",
+        optionA: "Hevonen menettää taitojaan",
+        optionB: "Hevonen hidastuu kilpailuissa",
+        optionC: "Hevonen ei voi lisääntyä",
+        optionD: "Hevonen kuolee",
         correctOption: "optionD"
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
+        question: "Jos hevonen on vain yhtä rotua se on _",
+        optionA: "Puhdasverinen",
+        optionB: "Täysverinen",
+        optionC: "Elite-hevonen",
+        optionD: "Uniikki verinen",
         correctOption: "optionA"
     },
 
     {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
+        question: "Mikä tapahtuma käynnistyy, kun hevonen astutetaan?",
+        optionA: "Uusi kilpailu",
+        optionB: "Koulutus uudelle tasolle",
+        optionC: "Tiineys",
+        optionD: "Kävelee oikein",
         correctOption: "optionC"
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
+        question: " Kuinka monta tuntia Howrsessa kestää hevosen päivä?",
+        optionA: "12h",
+        optionB: "8h",
+        optionC: "24h",
+        optionD: "48h",
         correctOption: "optionA"
     },
 
     {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
+        question: "Mikä on Howrsen suurin maailmanlaajuinen kilpailutapahtuma??",
+        optionA: "Olympialaiset",
+        optionB: "Mestaruuskilpailut",
+        optionC: "Grand Prix",
+        optionD: "Hevoskarnevaali",
         correctOption: "optionC"
     },
 
     {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
+        question: "Mikä näistä on perinnöllinen?",
+        optionA: "Pegasuksen siivet",
+        optionB: "Yksisarvisen sarvi",
+        optionC: "Väritys",
+        optionD: "Varusteet",
         correctOption: "optionB"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
+        question: " Mikä on tärkein arvo kilpailujen voittamiseen?",
+        optionA: "Taidot",
+        optionB: "Ikä",
+        optionC: "Rotu",
+        optionD: "Varusteet",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Kuinka monta hevosta pelaaja voi omistaa ilman rajoituksia?",
+        optionA: "100",
+        optionB: "500",
+        optionC: "1000",
+        optionD: "Ei rajoitusta",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Mikä esine tuottaa kaksos varsat?",
+        optionA: "Hestian lahja",
+        optionB: "Hedelmällisyyden sauva",
+        optionC: "Afroditen kyyneleet",
+        optionD: "Artemiin nuoli",
         correctOption: "optionB"
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
+        question: "Mikä auttaa parantamaan hevosen terveyttä nopeasti?",
+        optionA: "Apteekki",
+        optionB: "Musta orkidea",
+        optionC: "Nukkuminen",
+        optionD: "Vesi",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Mitä tapahtuu, jos hevonen ei saa ruokaa päivän aikana?",
+        optionA: "Hevonen ei voi kilpailla",
+        optionB: "Hevonen sairastuu",
+        optionC: "Hevosen terveys heikkenee",
+        optionD: "Hevonen kuolee",
         correctOption: "optionC"
     },
 
     {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
+        question: "Mikä lisää hevosen jalostusarvoa eniten?",
+        optionA: "Varustus",
+        optionB: "Geneettinen potentiaali",
+        optionC: "Terveys",
+        optionD: "Pokaalit",
+        correctOption: "optionB"
     }
 
 ]
@@ -349,15 +349,15 @@ function handleEndGame() {
 
     // condition check for player remark and remark color
     if (playerScore <= 3) {
-        remark = "Bad Grades, Keep Practicing."
+        remark = "Et taida olla pelaaja."
         remarkColor = "red"
     }
     else if (playerScore >= 4 && playerScore < 7) {
-        remark = "Average Grades, You can do better."
+        remark = "Hyvältä näyttää, olet hyvä pelaaja."
         remarkColor = "orange"
     }
     else if (playerScore >= 7) {
-        remark = "Excellent, Keep the good work going."
+        remark = "Täydellistä, olet oikea Howrse taitaja."
         remarkColor = "green"
     }
     const playerGrade = (playerScore / 10) * 100

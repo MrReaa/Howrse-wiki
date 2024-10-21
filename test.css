@@ -242,14 +242,14 @@ input[type=radio]:checked ~ .option {
 @media(min-width : 350px) and (max-width : 700px){
    .game-quiz-container{
        width: 90%;
-       height: 80vh;
+       height: 60vh;
     }
     .game-details-container h1{
         font-size: 1rem;
     }
 
     .game-question-container{
-        height: 8rem;
+        height: 10rem;
     }
 
     .game-question-container h1{
@@ -257,7 +257,7 @@ input[type=radio]:checked ~ .option {
      }
 
     .game-options-container span{
-        width: 90%;
+        width: 40%;
     }
     .modal-content-container{
         width: 90%;

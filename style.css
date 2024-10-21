@@ -94,11 +94,14 @@ body {
   content: counters(item, ".") " "; counter-increment: item 
 }
 
+/*Tablet sivulla*/
+
 table, th, td {
   text-align: left;
   padding-bottom: 10px;
 }
 
+/*Kuvateksti*/
 figcaption {
   background-color: #c6cac9;
   color: black;
@@ -117,12 +120,13 @@ figcaption {
 .topnav {
     overflow: hidden;
     background-color: rgb(224, 243, 219);
-    float: center;
+    display: flex;
+    justify-content: center; 
+
+    gap: 5px;
     border: none;
     padding: 15px 32px;
     padding-top: 100px;
-    text-align: center;
-    text-decoration: none;
     font-size: 17px;
     
   }
@@ -131,7 +135,10 @@ figcaption {
     
   .topnav a{
     color: black; 
-    text-align: center;
+    display: flex;  
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     text-decoration: none;
     padding: 14px 16px;
   }
@@ -197,6 +204,8 @@ figcaption {
 
   }
 
+  /*Sivu valikko*/
+
   .sidenav {
     width: 200px;
     position: absolute; 
@@ -222,6 +231,3 @@ figcaption {
   .sidenav a:hover {
     color: #9f59c7;
   }
-
-
-  

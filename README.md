@@ -7,7 +7,7 @@
 
 #### 2/5 HTML structure with clear content differentiation (headings, paragraphs, lists).
 - Multible usages
-  Exaples:
+  <p>Exaples:</p>
 - Headings: index.html (lines 34, 80, 83), contact.html (lines 17, 27, 43)
 - Paragraphs: index.html (lines 81, 86, 98) contact.html (lines 19, 23) test.html (lines 27-32)
 - Lists: index.html (lines 36-73 , 181-188 ), contact.html (lines 29-34), 

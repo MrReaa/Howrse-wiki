@@ -100,7 +100,7 @@ Multible usages:
   - QuerySelector: nav.js (line 7)
 
 #### 5/5 Consistent use of Object-Oriented JavaScript principles.
-- Usages: horse.js (lines 2-6, 8, 10)
+- Usages: horse.js (lines 2-6, 8, 10) contact.html (line 36)
 
 # Asynchronous Operations
 
@@ -126,4 +126,4 @@ Multible usages:
 
 #### 5/5 Effective use of asynchronous data to enhance user experience.
 Fetch was listed before,
-Promise used: horse (line 17)
+Promise used: horse.js (line 17), contact.html (line 37)

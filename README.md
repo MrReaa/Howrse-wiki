@@ -15,7 +15,7 @@
 #### 3/5 Use of forms, links, and media.
 - Multible usages
  <p>Example:</p>
-- Forms only contact.html (lines 45-49)
+-  Forms: contact.html (lines 45-49)
 - Links: index.html (lines 17-20, 46-48 , 50, 52-55, 121-165), contact.html (lines 30-32) topnav.html (lines 2-5)
 - Media: index.html (lines 28, 200, 245-247, 276), contact.html (lines 39)
 
